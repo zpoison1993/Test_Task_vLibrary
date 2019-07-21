@@ -18,7 +18,7 @@
           <td>{{book.author}}</td>
           <td>{{book.readAmount}} раз(а)</td>
           <td>
-            <router-link class="btn btn-success" v-bind:to="'/book/'+book.id">Подробнее
+            <router-link class="btn btn-success" v-bind:to="'/Test_Task_vLibrary/book/'+book.id">Подробнее
             </router-link>
           </td>
         </tr>

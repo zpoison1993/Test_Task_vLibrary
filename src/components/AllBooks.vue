@@ -27,7 +27,7 @@
           <td v-if="book.busy" style="color:red">Недоступна</td>
           <td v-else style="color:green">Доступна</td>
           <td>
-            <router-link class="btn btn-success" v-bind:to="'/customer/'+book.id">Подробнее</router-link>
+            <router-link class="btn btn-success" v-bind:to="'/Test_Task_vLibrary/customer/'+book.id">Подробнее</router-link>
           </td>
         </tr>
       </tbody>

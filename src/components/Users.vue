@@ -16,7 +16,7 @@
           <td>{{user.name}}</td>
           <td>{{readBooksAmount[user.id-1]}}</td>
           <td>
-            <router-link class="btn btn-success" v-bind:to="'/user/'+user.id">Подробнее</router-link>
+            <router-link class="btn btn-success" v-bind:to="'/Test_Task_vLibrary/user/'+user.id">Подробнее</router-link>
           </td>
         </tr>
       </tbody>
