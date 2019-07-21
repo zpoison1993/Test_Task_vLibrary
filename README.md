@@ -1,4 +1,11 @@
-# vcustomers
+# vLibrary
+```
+Service for library visitors
+Includes:
+1. List of all books (title and author) and their status
+2. Rating of 5 most readable books
+3. Readers rating
+```
 
 ## Project setup
 ```
