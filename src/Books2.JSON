@@ -1,0 +1,153 @@
+[
+    {
+        "id": 1,
+        "title": "Преступление и Наказание",
+        "author": "Ф.Достоевский",
+        "busy": true,
+        "userId": 2,
+        "taken": "2019-06-01",
+        "given": "2019-06-15"
+
+    },
+    {
+        "id": 2,
+        "title": "Собачье Сердце",
+        "author": "М.Булгаков",
+        "busy": false,
+        "userId": null,
+        "taken": null,
+        "given": null
+
+    },
+    {
+        "id": 3,
+        "title": "Мертвые Души",
+        "author": "Н.Гоголь",
+        "busy": true,
+        "userId": 5,
+        "taken": "2019-05-12",
+        "given": "2019-05-26"
+
+    },
+    {
+        "id": 4,
+        "title": "Три Товарища",
+        "author": "Э.М.Ремарк",
+        "busy": true,
+        "userId": 1,
+        "taken": "2019-06-07",
+        "given": "2019-06-21"
+
+    },
+    {
+        "id": 5,
+        "title": "Отцы и Дети",
+        "author": "И.Тургенев",
+        "busy": false,
+        "userId": null,
+        "taken": null,
+        "given": null
+
+    },
+    {
+        "id": 6,
+        "title": "Палата №6",
+        "author": "А.Чехов",
+        "busy": false,
+        "userId": null,
+        "taken": null,
+        "given": null
+
+    },
+    {
+        "id": 7,
+        "title": "Горе от Ума",
+        "author": "А.Грибоедов",
+        "busy": true,
+        "userId": 3,
+        "taken": "2019-07-15",
+        "given": "2019-07-29"
+
+    },
+    {
+        "id": 8,
+        "title": "Отверженные",
+        "author": "В.Гюго",
+        "busy": false,
+        "userId": null,
+        "taken": null,
+        "given": null
+
+    },
+    {
+        "id": 9,
+        "title": "Робинзон Крузо",
+        "author": "Д.Дефо",
+        "busy": false,
+        "userId": null,
+        "taken": null,
+        "given": null
+
+    },
+    {
+        "id": 10,
+        "title": "1984",
+        "author": "Д.Оруэлл",
+        "busy": false,
+        "userId": null,
+        "taken": null,
+        "given": null
+
+    },
+    {
+        "id": 11,
+        "title": "Доктор Живаго",
+        "author": "Б.Пастернак",
+        "busy": false,
+        "userId": null,
+        "taken": null,
+        "given": null
+
+    },
+    {
+        "id": 12,
+        "title": "Приключения Тома Сойера",
+        "author": "М.Твен",
+        "busy": false,
+        "userId": null,
+        "taken": null,
+        "given": null
+
+    },
+    {
+        "id": 13,
+        "title": "На Дне",
+        "author": "М.Горький",
+        "busy": true,
+        "userId": 4,
+        "taken": "2019-07-02",
+        "given": "2019-07-16"
+
+    },
+    {
+        "id": 14,
+        "title": "Пиковая Дама",
+        "author": "А.Пушкин",
+        "busy": false,
+        "userId": null,
+        "taken": null,
+        "given": null
+
+    },
+    {
+        "id": 15,
+        "title": "Белый Клык",
+        "author": "Д.Лондон",
+        "busy": false,
+        "userId": null,
+        "taken": null,
+        "given": null
+
+    }
+    
+]
