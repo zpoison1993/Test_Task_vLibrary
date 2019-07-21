@@ -17,12 +17,12 @@ const router = new VueRouter({
   mode: 'history',
   base: __dirname,
   routes: [
-    {path: '/', component: AllBooks},
-    {path: '/topbooks', component: TopBooks},
-    {path: '/users', component: Users},
-    {path: '/customer/:id', component: CustomerDetails},
-    {path: '/user/:id', component: UserDetails},
-    {path: '/book/:id', component: BookDetails}
+    {path: '/Test_Task_vLibrary/', component: AllBooks},
+    {path: '/Test_Task_vLibrary/topbooks', component: TopBooks},
+    {path: '/Test_Task_vLibrary/users', component: Users},
+    {path: '/Test_Task_vLibrary/customer/:id', component: CustomerDetails},
+    {path: '/Test_Task_vLibrary/user/:id', component: UserDetails},
+    {path: '/Test_Task_vLibrary/book/:id', component: BookDetails}
   ]
 })
 
