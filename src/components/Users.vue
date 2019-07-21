@@ -48,8 +48,6 @@ export default {
      sortUsers(users) {
         let uSorted = users.slice(0);
          uSorted = (uSorted.sort((a,b) => {return b.readBooksIDs.length - a.readBooksIDs.length}));
-        //  console.log(uSorted.length);
-        //  console.log(users.length);
          return this.usersSorted = uSorted;
      }
   },

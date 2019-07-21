@@ -65,39 +65,21 @@ export default {
 
     fetchBook(ind) {
       let bk = this.books.find(item => item.id == ind);
-      // console.log(bk);
       return (this.book = bk);
     },
     getBookIndex(ind) {
       let indexesArray = [];
       this.users.forEach(user => {
       let initialArray = Array.from(user.readBooksIDs);
-      // console.log(initialArray);
       
       let index = initialArray.findIndex(el => el == ind);
-          // indexesArray.push(Array.from(user.readBooksIDs.indexOf(ind)));
-          // console.log('yes');
+
       indexesArray.push(index);  
         
       });
       // console.log(indexesArray);
       return indexesArray;
     },
-    // averageRating(ind) {
-    //   let rating = 0, counter = 0;
-    //   const indexArr = this.getBookIndex(ind);
-    //   this.users.forEach((user,index) => { 
-    //     if( user.ratings[indexArr[index]] !== undefined ) 
-    //       {
-    //         rating +=user.ratings[indexArr[index]];
-    //         counter++;
-    //       }  
-    //   }
-    //   )
-    //   rating = rating/counter;
-    //   // console.log(rating);
-    //   return rating;
-    // },
     getUsers(ind) {
       const indexArr = this.getBookIndex(ind);
       let usersRead = [];
@@ -108,7 +90,7 @@ export default {
           }  
       }
       );
-      console.log(usersRead);
+      // console.log(usersRead);
       return this.user = usersRead;
     },
     getComments(ind) {
@@ -121,7 +103,6 @@ export default {
           }  
       }
       );
-      // console.log(comments);
       return this.comments = comments;
     },
     getRating(ind) {
@@ -134,8 +115,7 @@ export default {
           }  
       }
       )
-      // rating = rating/counter;
-      console.log(ratings);
+      // console.log(ratings);
       return this.ratings = ratings;
     }
     
@@ -145,7 +125,6 @@ export default {
     let g = this.$route.params.id;
     this.fetchBook(g);
     this.getBookIndex(g);
-    // this.averageRating(g);
     this.getComments(g);
     this.getUsers(g);
     this.getRating(g);

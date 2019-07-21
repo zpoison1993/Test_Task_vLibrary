@@ -57,17 +57,14 @@ export default {
             let readBooksArr = [];
             users.forEach((user) => {
                 readBooksArr.push(...Array.from(user.readBooksIDs));
-                // console.log(Array.from(user.readBooksIDs));
+
             });
-            
-            // console.log(Array.from(readBooksArr));
 
             let result = {};
             readBooksArr.forEach(function(a){
             result[a] = result[a] + 1 || 1;
             });
-            // console.log(Object.keys(result));
-            // console.log(Object.values(result));
+
 
             return result   
         },
@@ -76,8 +73,8 @@ export default {
             let readBooksObjKeys = Object.keys(readBooksObj).map(string => parseInt(string));
             let readBooksObjValues = Object.values(readBooksObj).map(string => parseInt(string));
             
-            console.log(readBooksObjKeys);
-            console.log(readBooksObjValues); 
+            // console.log(readBooksObjKeys);
+            // console.log(readBooksObjValues); 
             let booksFiltered = [];
             for(let i = 0 ; i<=readBooksObjKeys.length; i++) {
                 books.forEach(book => {
@@ -87,7 +84,7 @@ export default {
                 }
                 )   
             }
-            // booksFiltered.readAmount = readBooksObjValues[2];
+
 
             
                 booksFiltered.forEach((item,index) => {
@@ -95,7 +92,7 @@ export default {
                 });
             
             
-            console.log(booksFiltered);
+            // console.log(booksFiltered);
 
             return this.booksFiltered = booksFiltered;   
         }
@@ -103,7 +100,7 @@ export default {
   },
   created() {
       this.getReadBooksAmount(this.users)
-        // this.sortReadBooks(this.users);
+
         this.filterReadBooks(this.users,this.books)
   },
 

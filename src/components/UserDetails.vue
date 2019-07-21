@@ -49,15 +49,6 @@ export default {
   },
   props: {},
   methods: {
-    fetchCustomer(id) {
-      this.$http
-        .get(`http://jsonplaceholder.typicode.com/users/${id}`)
-        .then(function(response) {
-          // console.log(response.body);
-          this.customer = response.body;
-        });
-    },
-
     fetchUser(ind) {
       let usr = this.users.find(user => user.id == ind);
       return (this.user = usr);
@@ -71,11 +62,8 @@ export default {
     }
   },
   created() {
-    //   this.fetchCustomer(this.$route.params.id);
-    //   this.fetchBook(this.$route.params.id);
-    let g = this.$route.params.id;
-    console.log(g);
 
+    let g = this.$route.params.id;
     this.fetchUser(g);
     this.fetchBook(this.user.readBooksIDs);
   }
@@ -84,8 +72,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  #read-books {
-    /* display: flex; */
-    /* justify-content: space-between; */
-  }
 </style>
