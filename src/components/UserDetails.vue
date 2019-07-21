@@ -1,6 +1,6 @@
 <template>
   <div class="details container p-3">
-    <router-link class="btn btn-secondary m-3" to="/Test_Task_vLibrary/users">Назад к списку читателей</router-link>
+    <router-link class="btn btn-secondary m-3" to="/users">Назад к списку читателей</router-link>
     <ul class="list-group">
       <li class="list-group-item">
         Имя читателя:

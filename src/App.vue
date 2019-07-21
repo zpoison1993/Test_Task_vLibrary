@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
-      <router-link class="navbar-brand" to="/Test_Task_vLibrary/">vLibrary</router-link>
+      <router-link class="navbar-brand" to="/">vLibrary</router-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -18,7 +18,7 @@
         <ul class="navbar-nav mr-auto">
           <li  class="nav-item">
             <!-- <a class="nav-link" href="#"> -->
-              <router-link class="nav-link" to="/Test_Task_vLibrary/">
+              <router-link class="nav-link" to="/">
               Все книги
               <span class="sr-only">(current)</span>
             <!-- Home -->
@@ -26,11 +26,11 @@
               </router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/Test_Task_vLibrary/topbooks">Топ Книг</router-link>
+            <router-link class="nav-link" to="/topbooks">Топ Книг</router-link>
           </li>
           <!-- About -->
           <li class="nav-item">
-            <router-link class="nav-link" to="/Test_Task_vLibrary/users">Топ Читателей</router-link>
+            <router-link class="nav-link" to="/users">Топ Читателей</router-link>
           </li>
           <!-- Add Customer -->
         </ul>
